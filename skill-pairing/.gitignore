@@ -1,0 +1,10 @@
+settings.json
+
+# python compiled files
+*.pyc
+
+# Vim temp files
+.*.sw?
+
+# Pycharm project files
+.idea/
