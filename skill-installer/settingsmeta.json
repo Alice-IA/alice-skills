@@ -1,0 +1,34 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Custom Install",
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "<p>Skills registered in the <a href='https://market.mycroft.ai/skills'>Marketplace</a> can be installed with voice commands like \"install speedtest\".  Here you can enter a URL for a private Skill or Skill in development.<p/><p>Provide the URL to the Skill repository below.  You can initiate the installation by saying \"Hey Mycroft, download custom skill\".</p>"
+                    },
+                    {
+                        "name": "installer_link",
+                        "type": "text",
+                        "label": "Skill URL",
+                        "placeholder": "https://github.com/example/...",
+                        "value": ""
+                    },
+                    {
+                        "name": "to_install",
+                        "type": "disabled-text-field",
+                        "hide": "true",
+                        "value": "[]"
+                    },
+                    {
+                        "name": "to_remove",
+                        "type": "disabled-text-field",
+                        "hide": "true",
+                        "value": "[]"
+                    }
+                ]
+            }
+        ]
+    }
+}
